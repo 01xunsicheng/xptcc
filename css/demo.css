@@ -1,0 +1,156 @@
+
+/*  --------------------------------------------------------
+FONT ICONS DEMO
+-------------------------------------------------------- */
+
+#fontIcons {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+#fontIcons .col-md-4,
+#fontIcons .col-sm-6,
+#fontIcons .col-lg-3 {
+	border-bottom: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	height: 40px;
+	padding-top: 10px;
+}
+
+#fontIcons .col-md-4 i,
+#fontIcons .col-sm-6 i,
+#fontIcons .col-lg-3 i {
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+#fontIcons .col-md-4 span,
+#fontIcons .col-sm-6 span,
+#fontIcons .col-lg-3 span {
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+#fontIcons span.text-muted {
+	visibility: hidden;
+	position: absolute;
+}
+
+#fontIcons ul.bs-glyphicons-list {
+	margin: 0 auto;
+	display: block;
+	float: left;
+}
+
+#fontIcons ul.bs-glyphicons-list li {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+	background: #f9f9f9;
+}
+
+#fontIcons ul.bs-glyphicons-list li span.glyphicon {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#fontIcons ul.linea {
+	display: block;
+	margin: auto auto auto auto;
+	padding-left: 100px;
+}
+
+#fontIcons ul.linea li {
+	list-style: none;
+	display: inline-block;
+	border: 1px solid #f0f0f0;
+	padding: 5px 0 0 10px;
+	margin: 0 10px 10px 0;
+	width: 300px;
+}
+
+#fontIcons ul.linea li div.icon {
+	color: #111;
+	font-size: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+#fontIcons ul.linea li input {
+	float: left;
+	border: 0;
+	width: 250px;
+}
+
+@media(max-width:968px) {
+	#fontIcons ul.linea {
+		padding-left: 0;
+	}
+}
+
+#svgIcons .flaticon {
+	width: 48px;
+	height: 48px;
+	margin: 1rem;
+}
+
+.test-animated-container {
+	background-color: #f5f7f9;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	text-align: center;
+	padding: 0;
+	float: left;
+	vertical-align: middle;
+	width: 150px;
+	height: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	font-size: 12px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.b1r {
+	border: 1px solid red;
+}
+
+
+
+/*补充样式*/
+.ys1 {
+	text-align: left;
+	margin: 0 0 2px 60px;
+}
+
+.ys1 a {
+	font-family: 微软雅黑;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.ys2 span {
+	margin-top: 20%;
+}
+
+.ys3{
+	float: left; 
+	margin-left:20px;  
+	font-size: 20px; 
+	font-family: 微软雅黑;
+}
+.ys4{
+	float: left; margin-left:20px;  
+	 color:#ffffff;  
+	 font-family: 微软雅黑;  
+	 font-size: 20px;
+}
